@@ -281,7 +281,7 @@ GILの制約を持ったPythonにおけるマルチスレッドは、1つのCPU�
 
 ![I/O待ちをうまく活用する](./img/multi-process.png)
 
-```
+```python
 import requests
 from multiprocessing import Pool
 
